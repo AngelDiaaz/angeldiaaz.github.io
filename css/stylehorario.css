@@ -1,0 +1,189 @@
+*{
+    border-radius: 15px;
+}
+
+html, body {
+    height: auto;
+    width: auto;
+}
+
+header{
+    background-color: rgb(56, 166, 170);
+    margin: 0.3% 0.3% 0 0.3%;
+    height: 60px;
+    text-align: center;
+}
+
+h1{
+    color: white;   
+    letter-spacing: 10px;
+    padding-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 5%;
+    text-align: center;
+    width: 100%;
+}
+
+.table{
+    text-align: center;
+}
+
+.cabecera{
+	height: 30px;
+	font-size: 18px;
+}
+
+caption{
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+
+.horario{
+    background-color: rgb(56, 166, 170);
+    text-align: center;
+    width: 100%;
+    padding-bottom: 75px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:rgb(56, 166, 170);
+  }
+
+  table, th, td {
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+   
+}
+
+th, td {
+  color: white;
+}
+
+.horas{
+	border: 1px solid white;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.pelispace{
+  height: 75px;
+  background-color: rgb(168, 82, 168);
+  padding: 5px;
+}
+
+.pelighost{
+  height: 75px;
+  background-color: rgb(109, 206, 169);
+  padding: 5px;
+}
+
+
+.peliendgame{
+  height: 75px;
+  background-color: rgb(250, 137, 212);
+  padding: 5px;
+}
+
+.pelifaf{
+  height: 75px;
+  background-color: rgb(218, 80, 80);
+  padding: 5px;
+}
+
+.pelifight{
+  height: 75px;
+  background-color: rgb(172, 130, 146);
+  padding: 5px;
+}
+
+.peligod{
+  height: 75px;
+  background-color: coral;
+  padding: 5px;
+}
+
+.pelihol{
+  height: 75px;
+  background-color: rgb(230, 214, 127);
+  padding: 5px;
+}
+
+.pelimoon{
+  height: 75px;
+  background-color: rgb(240, 169, 108);
+  padding: 5px;
+}
+
+.peliavatar{
+  height: 75px;
+  background-color: rgb(59, 113, 196);
+  padding: 5px;
+} 
+
+.pelitron{
+  height: 75px;
+  background-color: rgb(96, 173, 218);
+  padding: 5px;
+}
+
+.peliorigen{
+  height: 75px;
+  background-color: rgb(221, 211, 73);
+  padding: 5px;
+}
+
+.pelistar{
+  height: 75px;
+  background-color: rgb(226, 95, 47);
+  padding: 5px;
+}
+
+.peliworld{
+  height: 75px;
+  background-color: rgb(88, 206, 88);
+  padding: 5px;
+}
+
+.libre{
+  height: 75px;
+
+}
+.selec{
+  background-color: whitesmoke;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 5%;
+  text-align: center;
+  width: 100%;    
+}

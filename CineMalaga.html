@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es-es">
+
+<head>
+    <title>CineSol</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css\style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>CINESOL</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a class="active" href="PaguinaWeb.html" src="PaguinaWeb.html">Inicio</a></li>
+            <li><a href="CineMalaga.html" src="CineMalaga.html">Cine Málaga</a></li>
+            <li><a href="CineMadrid.html" src="CineMadrid.html">Cine Madrid</a></li>
+            <li><a href="Horario.html">Horario CineSol</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+            <li><a href="AcercadeCinesol.html">Acerca de CineSol</a></li>
+
+        </ul>
+    </nav>
+    <nav class="cine">
+        <a href="https://www.filmaffinity.com/es/film305766.html">
+            <img class="imgcartelera" src="images\fandf.jpg"></a>
+        <a href="https://www.filmaffinity.com/es/film536945.html">
+            <img class="imgcartelera" src="images\fightclub.jpg"></a>
+        <a href="https://www.filmaffinity.com/es/film809297.html">
+            <img class="imgcartelera" src="images\godfather.jpg"></a>
+        <a href="https://www.filmaffinity.com/es/film289694.html">
+            <img class="imgcartelera" src="images\ghostbuster.jpg"></a>
+        <a href="https://www.filmaffinity.com/es/film169177.html">
+            <img class="imgcartelera" src="images\hollywood.jpg"></a>
+        <a href="https://www.filmaffinity.com/es/film395573.html">
+            <img class="imgcartelera" src="images\moonlight.jpg"></a>
+        <a href="https://www.filmaffinity.com/es/film799965.html">
+            <img class="imgcartelera" src="images\spacejam.jpg"></a>
+        <a href="https://www.filmaffinity.com/es/film993884.html">
+            <img class="imgcartelera" src="images\vengadores.jpg"></a>
+    </nav>
+    <section>
+        <aside>
+            <div class="imgmenu">
+                <img class="imgpalomitas" src="images\menupeq.jpg">
+            </div>
+
+            <div class="imgmenu2">
+                <img class="imgpalomitas" src="images\menugrande.jpg">
+            </div>
+        </aside>
+        <aside2>
+            <div class="horario">
+                <h4>HORARIO:</h4>
+                <p class="texto">Abierto de Martes a Domingo</p>
+                <p class="texto">12:00h a 23:00h</p>
+            </div>
+            <div class="imgbutacas">
+                <img class="imgsitio" src="images\sitios cine.jpg">
+            </div>
+        </aside2>
+        <div class="formulario">
+            <h3>Cine Arroyo del Agua (Málaga)</h3><br>
+            <form action="/action_page.php" class="textformulario">
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha">
+                <label for="sesion">Sesión:</label>
+                <select type="sesion" id="sesion" name="sesion">
+                    <option>12:00</option>
+                    <option>13:30</option>
+                    <option>16:00</option>
+                    <option>18:30</option>
+                    <option>19:30</option>
+                    <option>20:15</option>
+                    <option>22:00</option>
+                </select><br><br>
+                <label for="fname">Película:</label>
+                <select type="text" id="peli" name="peli" value="Seleccione pelicula"><br><br>
+                    <option value="faf9">Fast And Furious 9</option>
+                    <option value="fight">El Club de la Lucha</option>
+                    <option value="padrino">El Padrino</option>
+                    <option value="fantasmas">Los Cazafantasmas</option>
+                    <option value="hollywood">Erase una vez en Hollywood</option>
+                    <option value="moonlight">Moonlight</option>
+                    <option value="space">Space Jam 2</option>
+                    <option value="endgame">Vengadores ENDGAME</option>
+                </select><br><br>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="number">Teléfono:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]+" required>
+                <p>Asientos:</p>
+                <label for="number">Número de asientos:</label>
+                <input type="number" id="n.asiento" name="n.asiento" min="1" max="8"><br><br>
+                <label for="fila">Fila:</label>
+                <input type="number" id="fila" name="fila" min="1" max="15">
+                <label for="fila">Posición:</label>
+                <input type="number" id="fila" name="fila" min="1" max="29"><br><br>
+                <input type="radio" id="html" name="asiento">
+                  <label for="html">Normal</label>
+                  <input type="radio" id="html" name="asiento">
+                  <label for="html">VIP</label><br><br><br>
+
+
+                <input type="button" value="Siguiente" onclick="alert('Entradas reservadas.')">
+                <input type="reset">
+                <br><br>
+        </div>
+        </form>
+        <br>
+    </section>
+</body>
+
+</html>

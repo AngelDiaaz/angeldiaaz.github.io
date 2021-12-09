@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es-es">
+
+<head>
+    <title>CineSol</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css\style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>CINESOL</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a class="active" href="PaguinaWeb.html" src="PaguinaWeb.html">Inicio</a></li>
+            <li><a href="CineMalaga.html" src="CineMalaga.html">Cine Málaga</a></li>
+            <li><a href="CineMadrid.html" src="CineMadrid.html">Cine Madrid</a></li>
+            <li><a href="Horario.html">Horario CineSol</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+            <li><a href="AcercadeCinesol.html">Acerca de CineSol</a></li>
+
+        </ul>
+    </nav>
+    <nav class="selec">
+        <h2>Contacto</h2>
+    </nav>
+
+    <section class="contacto">
+        <h3>Motivo de contacto</h3>
+        <form>
+            <label for="fecha"></label>
+            <input class="message" type="date" id="fecha" name="fecha"><br><br>
+            <textarea name="message" rows="2" cols="100"></textarea><br><br>
+            <h3>Descripción</h3>
+            <h5>Explique el motivo por favor</h5>
+            <textarea name="message" rows="25" cols="100"></textarea><br><br>
+            <input type="button" value="Enviar" onclick="alert('Enviado correctamente.')">
+        </form>
+    </section>
+
+</body>
+
+</html>

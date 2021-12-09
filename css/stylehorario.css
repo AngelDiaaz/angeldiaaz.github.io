@@ -31,6 +31,8 @@ nav{
 
 .table{
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cabecera{
@@ -81,9 +83,7 @@ ul {
   table, th, td {
     border: 1px solid whitesmoke;
     border-radius: 15px;
-    margin-left: 20%;
-    margin-right: 20%;
-   
+     
 }
 
 th, td {

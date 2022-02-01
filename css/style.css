@@ -362,7 +362,7 @@ th {
     height: 450px;
 }
 
-@media(max-width: 768px){ 
+@media only screen and (max-width: 768px){ 
 
     .right{
         width: 60%;

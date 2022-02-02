@@ -469,4 +469,10 @@ th {
         text-decoration: none;
         margin-left: 25px;
       }
+
+    .imghorario{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
 }

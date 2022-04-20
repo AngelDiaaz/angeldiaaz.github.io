@@ -413,8 +413,8 @@ ul {
     }
     .menu{
         position:fixed;
-        width: 100%;
-        height: auto;
+        width: 96%;
+        height: 65%;
         margin-bottom: 2%;
         background: rgb(56, 166, 170);
         right: -100%;
@@ -422,6 +422,8 @@ ul {
         text-align: center;
         padding: 100px 0px;
         z-index:100;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 
     .menu a{

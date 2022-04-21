@@ -392,6 +392,8 @@ ul {
         text-align: center;
         padding: 14px 20px;
         text-decoration: none;
+        margin-left: 78px;
+        margin-right: 80px;
       }
       
       li a:hover {
@@ -414,7 +416,7 @@ ul {
     .menu{
         position:fixed;
         width: 96%;
-        height: 65%;
+        height: 67%;
         margin-bottom: 2%;
         background: rgb(56, 166, 170);
         right: -100%;
@@ -547,14 +549,14 @@ ul {
         height: 300px;
     }
     
-    li a {
+    /* li a {
         display: block;
         color: black;
         text-align: center;
         padding: 14px 30px;
         text-decoration: none;
         margin-left: 25px;
-      }
+      } */
 
     .imghorario{
         text-align: center;
